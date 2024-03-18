@@ -25,10 +25,13 @@ export default function App() {
         <button className="get-quote-btn">Get Quote</button>
       </nav>
 
-      <img
+      {/* <img
         className="dog-img"
         src="https://images.ctfassets.net/nx3pzsky0bc9/2sdUirqRQ4dXpJpVUcCKny/02edf394197f4f3df2e6f6fb6e2d2f54/Desktop_Work_at_Embrace.png?w=1600&fm=webp"
-      />
+      /> */}
+      <div className='dog-img'></div>
+
+      
     </>
   );
 }

@@ -28,7 +28,7 @@ nav {
   background-color: rgb(244,192,98);
 border: none;
 border-radius: 20px;
-padding: 15px;
+padding: 10px 10px;
 }
 
 .embrace-text {
@@ -46,5 +46,15 @@ padding: 15px;
 }
 
 .dog-img {
-  width: 100%;
+  background-image: url("https://images.ctfassets.net/nx3pzsky0bc9/2sdUirqRQ4dXpJpVUcCKny/02edf394197f4f3df2e6f6fb6e2d2f54/Desktop_Work_at_Embrace.png?w=1600&fm=webp");
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+
+}
+@media screen and (min-width: 800px) {
+.dog-img {
+  height: 600px;
+
+}
 }
