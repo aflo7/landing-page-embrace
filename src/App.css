@@ -5,3 +5,46 @@ body {
 * {
   box-sizing: border-box;
 }
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background-color: rgb(76,45,116);
+  color: white;
+  padding: 10px 20px;
+}
+
+.right-nav {
+  display: flex;
+  gap: 10px;
+}
+
+.top-nav {
+  display: none;
+}
+
+.get-quote-btn {
+  background-color: rgb(244,192,98);
+border: none;
+border-radius: 20px;
+padding: 15px;
+}
+
+.embrace-text {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.pet-insurance-text {
+  letter-spacing: 3px;
+  font-size: 0.5rem;
+}
+
+.burger-logo {
+  font-size: 1.5rem;
+}
+
+.dog-img {
+  width: 100%;
+}
